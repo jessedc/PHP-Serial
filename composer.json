@@ -1,5 +1,5 @@
 {
-    "name": "hyperthese/php-serial",
+    "name": "jessedc/php-serial",
     "description": "Multi-platform serial port access convenience class",
     "license": "GNU GPLv2",
     "authors": [
@@ -11,6 +11,9 @@
     "minimum-stability": "stable",
     "autoload": {
         "classmap": ["src/"]
+    },
+    "require": {
+        "php": "~7.1.0"
     },
     "extra": {
         "branch-alias": {
